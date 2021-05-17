@@ -1,0 +1,22 @@
+batch_size: 512
+epochs: 80
+eval_every_n_epochs: 1
+fine_tune_from: None
+log_every_n_steps: 50
+weight_decay: 10e-6
+fp16_precision: False
+
+model:
+  out_dim: 256
+  base_model: "resnet18"
+  imsize: 96
+
+dataset:
+  parent: "Digit"
+  dset_taples: [['svhn', [0,1,2,3,4,5,6,7,8,9]], ['mnist', [0,1,2,3,4,5,6,7,8,9]]]
+  jigsaw: True
+  save_name: "jigsaw_grid_3"
+  grid: 3
+loss:
+  temperature: 0.5
+  use_cosine_similarity: True
