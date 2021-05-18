@@ -22,7 +22,7 @@ python main.py --config=<yaml file in config> --outname=<output name>
 
 Result is output at `record/<output name>`.
 
-## evaluation
+## Evaluation
 
 ```
 python assessment.py record/<output name>
@@ -32,5 +32,5 @@ or
 python assessment_inter.py record/<output name>
 ```
 
-## 
+## Reference
 We implemented this code based on https://github.com/CuthbertCai/pytorch_DANN
