@@ -3,9 +3,6 @@
 *.ipynb
 *.sh
 
-data
-data/
-
 runs/
 record/
 # config/

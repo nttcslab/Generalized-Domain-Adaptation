@@ -1,0 +1,32 @@
+lr: 0.001
+lr_weight: 1.0
+batch_size: 16 
+epochs: 1000
+gamma: 10 
+theta: 1
+use_gpu: True
+num_history: 20
+
+num_domains: 2
+clustering_method: "simCLR"
+grid: 3
+
+training_mode: "dann_OS"
+change_epoch: 100
+change_epoch2: 200
+next_lr : 0.001
+prior_weight: 1
+
+model: "resnet"
+
+optim: "momentum"
+
+save_output: False
+
+parent: "Office31"
+dset_taples: [['dslr', [0,1,2,3,4,5,6,7,8,9], [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]],
+              ['webcam', [10,11,12,13,14,15,16,17,18,19], [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]]]
+
+prior: [0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.033, 0.33]
+
+sigma: 0.5

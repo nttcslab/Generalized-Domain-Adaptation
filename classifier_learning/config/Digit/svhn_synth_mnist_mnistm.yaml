@@ -1,0 +1,30 @@
+lr: 0.001
+lr_weight: 1.0
+batch_size: 256
+epochs: 1000
+gamma: 1000 
+theta: 1
+use_gpu: True
+num_history: 20
+
+num_domains: 4 
+clustering_method: "simCLR"
+grid: 3
+
+training_mode: "dann_OS"
+change_epoch: 100
+change_epoch2: 200
+next_lr: 0.1
+prior_weight: 5
+
+model: "alexnet"
+
+save_output: False 
+
+optim: "momentum"
+
+parent: "Digit"
+dset_taples: [['svhn', [0,1], [0,1,2,3,4,5,6,7,8,9]], ['synth', [2,3], [0,1,2,3,4,5,6,7,8,9]], ['mnist', [4,5], [0,1,2,3,4,5,6,7,8,9]], ['mnist_m', [6,7], [0,1,2,3,4,5,6,7,8,9]]]
+prior: [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.2]
+
+sigma: 0.5

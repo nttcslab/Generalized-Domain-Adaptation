@@ -1,12 +1,8 @@
-data_bak/
 data
 .ipynb_checkpoints/
 pretrained/
 
-clustering/
-clustering_bak/
 record/
-config/
 misc/
 jupyter/
 analyze/
