@@ -1,4 +1,4 @@
-# Generalized Domain Adaptation
+# Generalized Domain Adaptation (CVPR2021)
 This is the official PyTorch impelementation of our paper "Generalized Domain Adaptation" (CVPR2021).
 
 This code provides an implementation of our domain adaptation method for problems where the domain label is completely unknown for all samples.
