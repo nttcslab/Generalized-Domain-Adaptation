@@ -7,7 +7,7 @@ Our method comprises two major steps:
 1. Run domain estimation first to estimate the domain labels for all samples.
 2. Run classifier learning next to learn a domain-invariant classifier using the estimated domain labels.
 
-The codes and their details for each step are stored in a sub-directory with a corresponding name.
+The codes and their details for each step are stored in a sub-directory with the corresponding name.
 
 We use the dataset provided at https://github.com/zjy526223908/BTDA.
 
