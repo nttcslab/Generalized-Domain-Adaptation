@@ -22,5 +22,5 @@ $ python clustering.py --config=<yaml file>
 
 Estimation result is output as `cluster_pca.csv` at the output directory in `record`.
 
-## Reference
+## Acknowledgement
 We implemented this program based on https://github.com/sthalles/SimCLR.

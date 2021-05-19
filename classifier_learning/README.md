@@ -32,5 +32,5 @@ or
 python assessment_inter.py record/<output name>
 ```
 
-## Reference
+## Acknowledgement
 We implemented this code based on https://github.com/CuthbertCai/pytorch_DANN
