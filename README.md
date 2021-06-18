@@ -1,5 +1,5 @@
 # Generalized Domain Adaptation (CVPR2021)
-This is the official PyTorch impelementation of our paper "Generalized Domain Adaptation" (CVPR2021).
+This is the official PyTorch impelementation of our paper ["Generalized Domain Adaptation"](https://arxiv.org/abs/2106.01656) (CVPR2021).
 
 This code provides an implementation of our domain adaptation method for problems where the domain label is completely unknown for all samples.
 
